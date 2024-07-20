@@ -19,6 +19,7 @@ header {
     line-height: 10px;
 }
 
+
 ul {
     display: flex;
     height: 100%;
@@ -30,7 +31,7 @@ nav ul li {
 }
 
 nav a:hover {
-    color: rgb(17, 153, 231);
+    color: rgb(255, 255, 255);
     transition: 0.3s all;
 }
 
