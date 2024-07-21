@@ -26,6 +26,7 @@ ul {
     align-items: center;
 }
 nav ul li {
+    color: rgb(255, 255, 255);
     padding-left: 16px;
     list-style-type: none;
 }
@@ -63,6 +64,7 @@ h2 {
     line-height: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 span {
     color: rgb(17, 153, 231);
@@ -108,12 +110,67 @@ input {
 }
 
 footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 15px 0;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
 
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: rgb(17, 153, 231);
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.social-media h3 {
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: rgb(17, 153, 231);
+}
+
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-media ul li a img {
+    width: 30px;
+    height: 30px;
+}
